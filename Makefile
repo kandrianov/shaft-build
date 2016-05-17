@@ -1,7 +1,8 @@
 BIN_DIR ?= ./node_modules/.bin
-PRESETS ?= '--presets=node5,stage-0'
+
 BUILD_SRC ?= 'src'
 BUILD_LIB ?= 'lib'
+PRESETS ?= '--presets=node5,stage-0'
 
 #
 # BABEL BUILD lib
